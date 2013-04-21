@@ -8,7 +8,7 @@
     <p>
         Regards,</p>
     <p>
-        testing</p>
+        t</p>
     <p>
         Alexis &amp; Krikor</p>
 
