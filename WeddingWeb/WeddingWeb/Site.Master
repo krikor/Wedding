@@ -7,6 +7,12 @@
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -37,18 +43,21 @@
                         <asp:MenuItem Text="Event" Value="Event">
                             <asp:MenuItem Text="Schedule" Value="Schedule"></asp:MenuItem>
                             <asp:MenuItem Text="The Venue" Value="The Venue"></asp:MenuItem>
-                            <asp:MenuItem Text="Transportation" Value="Transportation"></asp:MenuItem>
-                            <asp:MenuItem Text="Lodging" Value="Lodging"></asp:MenuItem>
+                            <asp:MenuItem Text="Lodging &amp; Transportation" Value="LodgingTrans"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="RSVP" Value="RSVP" NavigateUrl="~/RSVP.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="The Wedding Party" Value="The Wedding Party"></asp:MenuItem>
                         <asp:MenuItem Text="Gift Registry" Value="Gift Registry"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
             </div>
         </div>
         <div class="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <div class="style1">
+                </div>
+            </asp:ContentPlaceHolder>
         </div>
         <div class="clear">
         </div>

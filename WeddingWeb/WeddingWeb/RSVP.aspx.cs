@@ -46,11 +46,7 @@ namespace WeddingWeb
                 mail.To.Add("alexis-and-krikor@outlook.com");
                 mail.Subject = "RSVP";
 
-                if (WeddingParty.Checked)
-                {
-                    mail.Subject = mail.Subject + " from Wedding Party Member";
-                }
-
+               
                 message = message + "Email: " + EmailBox.Text +
                     "\n" + FirstName.Text + " " + LastName.Text + " has " + decision + " your invitation."
                     + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " people.";

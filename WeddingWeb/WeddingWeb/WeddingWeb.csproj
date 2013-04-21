@@ -58,6 +58,11 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="ConfirmRSVP.aspx" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="Event.aspx" />
+    <Content Include="IMAGES\adress-box-Flat.jpg" />
+    <Content Include="IMAGES\black.png" />
+    <Content Include="IMAGES\purple-wedding-border-hi.png" />
+    <Content Include="LodgeTrans.aspx" />
     <Content Include="RSVP.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -130,8 +135,22 @@
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Event.aspx.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event.aspx.designer.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LodgeTrans.aspx.cs">
+      <DependentUpon>LodgeTrans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LodgeTrans.aspx.designer.cs">
+      <DependentUpon>LodgeTrans.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RSVP.aspx.cs">
