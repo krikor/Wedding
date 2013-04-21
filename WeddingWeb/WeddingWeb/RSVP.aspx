@@ -146,14 +146,12 @@
             CssClass="style13">
     </asp:Panel>
     </div>
-    <br />
     <p class="style1">
     <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Submit" 
             CssClass="style13" Height="56px" Width="242px" BorderStyle="None" 
             Font-Size="XX-Large" />
     </p>
-    <br />
-    <br />
-    <br />
+    <p class="style1">
+        &nbsp;</p>
     
 </asp:Content>
