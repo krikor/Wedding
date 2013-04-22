@@ -3,8 +3,9 @@
 
 body   
 {
-    background: #b6b7bc;
-    background-color:#b0c4de;
+    background: #ffffff;
+    
+    background-image:url('/IMAGES/wedding-backgrounds-wallpapers.jpg');
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
@@ -90,12 +91,15 @@ first child of the left and right table columns */
 .page
 {
     width: 960px;   
-    background-color:#fff;
-    background-image: url('/IMAGES/purple-wedding-border-hi.png');
+    background-color: #ffffff;
+    /*background-image: url('/IMAGES/purple-wedding-border-hi.png');
     background-repeat:no-repeat;   
-    background-position:79% center;
+    background-position:85% center;*/
+    opacity:0.75;
+    filter:alpha(opacity=75);   
     margin: 20px auto 0px auto;
     border: 1px solid #496077;
+    
 }
 
 .header
@@ -123,7 +127,9 @@ first child of the left and right table columns */
     padding: 0px 12px;
     margin: 12px 8px 8px 8px;
     min-height: 420px;
-}
+    
+}   
+    }
 
 .leftCol
 {

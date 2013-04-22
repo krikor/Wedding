@@ -38,17 +38,20 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem Text="Our Story" Value="Our Story"></asp:MenuItem>
+                        <asp:MenuItem Text="Our Story" Value="Our Story" NavigateUrl="~/Story.aspx"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
-                        <asp:MenuItem Text="Event" Value="Event">
-                            <asp:MenuItem Text="Schedule" Value="Schedule"></asp:MenuItem>
-                            <asp:MenuItem Text="The Venue" Value="The Venue"></asp:MenuItem>
-                            <asp:MenuItem Text="Lodging &amp; Transportation" Value="LodgingTrans"></asp:MenuItem>
+                        <asp:MenuItem Text="Event" Value="Event" NavigateUrl="~/Event.aspx">
+                            <asp:MenuItem Text="Schedule" Value="Schedule" NavigateUrl="~/Schedule.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="The Venue" Value="The Venue" NavigateUrl="~/Venue.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Lodging &amp; Transportation" Value="LodgingTrans" 
+                                NavigateUrl="~/LodgeTrans.aspx"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem Text="RSVP" Value="RSVP" NavigateUrl="~/RSVP.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="The Wedding Party" Value="The Wedding Party"></asp:MenuItem>
-                        <asp:MenuItem Text="Gift Registry" Value="Gift Registry"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery"></asp:MenuItem>
+                        <asp:MenuItem Text="The Wedding Party" Value="The Wedding Party" 
+                            NavigateUrl="~/WeddingParty.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Gift Registry" Value="Gift Registry" 
+                            NavigateUrl="~/Registry.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
             </div>
@@ -64,7 +67,7 @@
     </div>
     <div class="footer">
         
-    </div>
+        by Krikor</div>
     </form>
 </body>
 </html>

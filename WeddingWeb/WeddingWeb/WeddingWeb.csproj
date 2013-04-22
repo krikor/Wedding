@@ -59,17 +59,28 @@
     <Content Include="ConfirmRSVP.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="Event.aspx" />
+    <Content Include="Gallery.aspx" />
     <Content Include="IMAGES\adress-box-Flat.jpg" />
     <Content Include="IMAGES\black.png" />
+    <Content Include="IMAGES\bottomCally2.png" />
+    <Content Include="IMAGES\middleCally2.png" />
     <Content Include="IMAGES\purple-wedding-border-hi.png" />
+    <Content Include="IMAGES\topCall.jpg" />
+    <Content Include="IMAGES\topCally2.png" />
+    <Content Include="IMAGES\wallpaper-124478.jpg" />
+    <Content Include="IMAGES\wedding-backgrounds-wallpapers.jpg" />
     <Content Include="LodgeTrans.aspx" />
+    <Content Include="Registry.aspx" />
     <Content Include="RSVP.aspx" />
+    <Content Include="Schedule.aspx" />
+    <Content Include="Story.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Venue.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,6 +88,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="WeddingParty.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -142,6 +154,13 @@
     <Compile Include="Event.aspx.designer.cs">
       <DependentUpon>Event.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -153,6 +172,13 @@
       <DependentUpon>LodgeTrans.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry.aspx.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registry.aspx.designer.cs">
+      <DependentUpon>Registry.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RSVP.aspx.cs">
       <DependentUpon>RSVP.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,12 +186,40 @@
     <Compile Include="RSVP.aspx.designer.cs">
       <DependentUpon>RSVP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Story.aspx.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Story.aspx.designer.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Venue.aspx.cs">
+      <DependentUpon>Venue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Venue.aspx.designer.cs">
+      <DependentUpon>Venue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeddingParty.aspx.cs">
+      <DependentUpon>WeddingParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeddingParty.aspx.designer.cs">
+      <DependentUpon>WeddingParty.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

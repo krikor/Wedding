@@ -2,6 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p>
-        An error happend while RSVPing!</p>
+    <p class="style1">
+        An error happend while saving your response!</p>
+<p class="style1">
+        Please go back and make sure the email you put in is valid.</p>
 </asp:Content>

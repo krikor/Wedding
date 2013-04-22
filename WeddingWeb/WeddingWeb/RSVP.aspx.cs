@@ -26,87 +26,95 @@ namespace WeddingWeb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            String decision = "";
-
-            if (Attending.Checked == true)
+            string n = String.Format("{0}", Request.Form["invitePassword"]);
+            if (n.Equals("hobahobs"))
             {
-                decision = "ACCEPTED";
+                validPass.Visible = false;
+                String decision = "";
+
+                if (Attending.Checked == true)
+                {
+                    decision = "ACCEPTED";
+                }
+                else
+                {
+                    decision = "DENIED";
+                }
+
+                try
+                {
+                    MailMessage mail = new MailMessage();
+                    SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+                    mail.From = new MailAddress("krikor.ni@gmail.com");
+                    mail.To.Add("alexis-and-krikor@outlook.com");
+                    mail.Subject = "RSVP";
+
+                    message = message + "Email: " + EmailBox.Text +
+                        "\n" + FirstName.Text + " " + LastName.Text + " has " + decision + " your invitation."
+                        + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " people.";
+
+                    message = message + " The following guests are attending: \n";
+
+                    foreach (Control c in NamesPanel.Controls)
+                    {
+                        if (c is TextBox)
+                        {
+                            TextBox temp = (TextBox)c;
+                            message = message + temp.Text + " MEAL: ";
+                        }
+                        if (c is DropDownList)
+                        {
+                            DropDownList temp = (DropDownList)c;
+                            message = message + temp.SelectedItem.Text + "\n";
+                        }
+                    }
+
+                    mail.Body = message;
+                    SmtpServer.Port = 587;
+                    SmtpServer.UseDefaultCredentials = false;
+                    SmtpServer.Credentials = new System.Net.NetworkCredential("krikor.ni", "nor1359136");
+                    SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    SmtpServer.EnableSsl = true;
+                    SmtpServer.Send(mail);
+
+                    //email to confirm
+                    MailMessage confirmation = new MailMessage();
+                    confirmation.From = new MailAddress("krikor.ni@gmail.com");
+                    confirmation.To.Add(EmailBox.Text);
+                    confirmation.Subject = "RSVP Confirmation";
+
+                    confirmation.Body = "Thank you for your response. \n";
+                    confirmation.Body = confirmation.Body + "Your reservation was: \n";
+                    confirmation.Body = confirmation.Body + numberAttending.Text + " Guests:\n";
+                    foreach (Control c in NamesPanel.Controls)
+                    {
+                        if (c is TextBox)
+                        {
+                            TextBox temp = (TextBox)c;
+                            confirmation.Body = confirmation.Body + temp.Text + " MEAL: ";
+                        }
+                        if (c is DropDownList)
+                        {
+                            DropDownList temp = (DropDownList)c;
+                            confirmation.Body = confirmation.Body + temp.SelectedItem.Text + "\n";
+                        }
+                    }
+
+                    confirmation.Body = confirmation.Body + "\nRegards," + "\nAlexis & Krikor";
+
+                    SmtpServer.Send(confirmation);
+
+                    Response.Redirect("ConfirmRSVP.aspx", false);
+                }
+                catch (Exception ex)
+                {
+                    Response.Redirect("ErrorPage.aspx");
+                }
             }
             else
             {
-                decision = "DENIED";
-            }
-
-            try
-            {
-                MailMessage mail = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-
-                mail.From = new MailAddress("krikor.ni@gmail.com");
-                mail.To.Add("alexis-and-krikor@outlook.com");
-                mail.Subject = "RSVP";
-
-               
-                message = message + "Email: " + EmailBox.Text +
-                    "\n" + FirstName.Text + " " + LastName.Text + " has " + decision + " your invitation."
-                    + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " people.";
-
-                message = message + " The following guests are attending: \n";
-
-                foreach (Control c in NamesPanel.Controls)
-                {
-                    if (c is TextBox)
-                    {
-                        TextBox temp = (TextBox)c;
-                        message = message + temp.Text + " MEAL: ";
-                    }
-                    if (c is DropDownList)
-                    {
-                        DropDownList temp = (DropDownList)c;
-                        message = message + temp.SelectedItem.Text + "\n";
-                    }
-                }
-
-                mail.Body = message;
-                SmtpServer.Port = 587;
-                SmtpServer.UseDefaultCredentials = false;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("krikor.ni", "nor1359136");
-                SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
-                SmtpServer.EnableSsl = true;
-                SmtpServer.Send(mail);
-                
-                //email to confirm
-                MailMessage confirmation = new MailMessage();
-                confirmation.From = new MailAddress("krikor.ni@gmail.com");
-                confirmation.To.Add(EmailBox.Text);
-                confirmation.Subject = "RSVP Confirmation";
-
-                confirmation.Body = "Thank you for your response. \n";
-                confirmation.Body = confirmation.Body + "Your reservation was: \n";
-                confirmation.Body = confirmation.Body + numberAttending.Text + " Guests:\n";
-                foreach (Control c in NamesPanel.Controls)
-                {
-                    if (c is TextBox)
-                    {
-                        TextBox temp = (TextBox)c;
-                        confirmation.Body = confirmation.Body + temp.Text + " MEAL: ";
-                    }
-                    if (c is DropDownList)
-                    {
-                        DropDownList temp = (DropDownList)c;
-                        confirmation.Body = confirmation.Body + temp.SelectedItem.Text + "\n";
-                    }
-                }
-
-                confirmation.Body = confirmation.Body + "\nRegards," + "\nAlexis & Krikor";
-
-                SmtpServer.Send(confirmation);
-
-                Response.Redirect("ConfirmRSVP.aspx", false);
-            }
-            catch (Exception ex)
-            {
-                Response.Redirect("ErrorPage.aspx");
+                validPass.Visible = true;
             }
         }
 
