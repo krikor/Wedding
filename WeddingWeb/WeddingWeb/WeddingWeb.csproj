@@ -63,8 +63,10 @@
     <Content Include="IMAGES\adress-box-Flat.jpg" />
     <Content Include="IMAGES\black.png" />
     <Content Include="IMAGES\bottomCally2.png" />
+    <Content Include="IMAGES\error-icon.png" />
     <Content Include="IMAGES\middleCally2.png" />
     <Content Include="IMAGES\purple-wedding-border-hi.png" />
+    <Content Include="IMAGES\ringsWall.jpg" />
     <Content Include="IMAGES\topCall.jpg" />
     <Content Include="IMAGES\topCally2.png" />
     <Content Include="IMAGES\wallpaper-124478.jpg" />

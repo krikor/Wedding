@@ -12,6 +12,7 @@
             font-size: 70pt;
             margin:0;
             color: #333333;
+            height: 134px;
         }
         .style9
         {
@@ -49,6 +50,7 @@
         .style20
         {
             text-align: center;
+            height: 28px;
         }
         .style21
         {

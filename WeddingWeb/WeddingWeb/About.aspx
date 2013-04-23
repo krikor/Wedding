@@ -4,10 +4,10 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
+    <h2 class="style1">
         About
     </h2>
-    <p>
+    <p class="style1">
         Put content here.
     </p>
 </asp:Content>
