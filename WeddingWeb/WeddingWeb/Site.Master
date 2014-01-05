@@ -12,29 +12,36 @@
         {
             text-align: center;
         }
+        .style2
+        {
+            text-align: center;
+            font-family: "Edwardian Script ITC";
+            font-size: 80pt;
+            color: #000000;
+        }
+        .style4
+        {
+            color: #FF9900;
+            font-family: "Edwardian Script ITC";
+            font-size: x-large;
+        }
     </style>
 </head>
 <body>
     <form runat="server">
     <div class="page">
         <div class="header">
-            <div class="title">
-                <h1>
+            <div class="style2">
                     Alexis &amp; Krikor
-                </h1>
             </div>
-            <div class="loginDisplay">
-                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
-                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
-                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
-                    </LoggedInTemplate>
-                </asp:LoginView>
+            <div class="style1">
+                    <span class="style4">July 26th 2014 </span> <br />
             </div>
+
             <div class="clear hideSkiplink">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="style1">
+                    <span class="style4">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
@@ -54,6 +61,8 @@
                         <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
+                    </span>
+                </div>
             </div>
         </div>
         <div class="main">

@@ -95,7 +95,7 @@ first child of the left and right table columns */
     /*background-image: url('/IMAGES/purple-wedding-border-hi.png');
     background-repeat:no-repeat;   
     background-position:85% center;*/
-    opacity:0.85;
+    opacity:0.90;
     filter:alpha(opacity=75);   
     margin: 20px auto 0px auto;
     border: 1px solid #496077;
@@ -107,8 +107,9 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: #ffffff/*#4b6c9e*/;
     width: 100%;
+    
 }
 
 .header h1
@@ -116,10 +117,11 @@ first child of the left and right table columns */
     font-weight: 700;
     margin: 0px;
     padding: 0px 0px 0px 20px;
-    color: #f9f9f9;
+    color: black/*#f9f9f9*/;
     border: none;
     line-height: 2em;
     font-size: 2em;
+    
 }
 
 .main
@@ -154,7 +156,7 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
+    background-color:#ffffff;
     width:100%;
 }
 
@@ -173,7 +175,7 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
+    background-color: purple;
     border: 1px #4e667d solid;
     color: #dde4ec;
     display: block;
@@ -185,14 +187,14 @@ div.menu ul li a, div.menu ul li a:visited
 
 div.menu ul li a:hover
 {
-    background-color: #bfcbd6;
+    background-color: #ffffff;
     color: #465c71;
     text-decoration: none;
 }
 
 div.menu ul li a:active
 {
-    background-color: #465c71;
+    background-color: #ffffff;
     color: #cfdbe6;
     text-decoration: none;
 }
