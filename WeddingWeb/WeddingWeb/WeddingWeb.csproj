@@ -65,6 +65,12 @@
     <Content Include="IMAGES\bottomCally2.png" />
     <Content Include="IMAGES\error-icon.png" />
     <Content Include="IMAGES\middleCally2.png" />
+    <Content Include="IMAGES\Pictures\IMG_2.JPG" />
+    <Content Include="IMAGES\Pictures\IMG_4.JPG" />
+    <Content Include="IMAGES\Pictures\IMG_5.JPG" />
+    <Content Include="IMAGES\Pictures\IMG_6.JPG" />
+    <Content Include="IMAGES\Pictures\IMG_1.JPG" />
+    <Content Include="IMAGES\Pictures\IMG_3.JPG" />
     <Content Include="IMAGES\purple-wedding-border-hi.png" />
     <Content Include="IMAGES\ringsWall.jpg" />
     <Content Include="IMAGES\topCall.jpg" />
