@@ -11,12 +11,11 @@ namespace WeddingWeb
 {
     public partial class Gallery : System.Web.UI.Page
     {
-        bool show;
         int picNumber;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            show = true;
+            
 
         }
 

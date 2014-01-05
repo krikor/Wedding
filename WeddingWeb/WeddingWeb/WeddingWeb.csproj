@@ -72,6 +72,8 @@
     <Content Include="IMAGES\Pictures\IMG_6.JPG" />
     <Content Include="IMAGES\Pictures\IMG_1.JPG" />
     <Content Include="IMAGES\Pictures\IMG_3.JPG" />
+    <Content Include="IMAGES\Pictures\leftCal.png" />
+    <Content Include="IMAGES\Pictures\rightCal.png" />
     <Content Include="IMAGES\purple-wedding-border-hi.png" />
     <Content Include="IMAGES\ringsWall.jpg" />
     <Content Include="IMAGES\topCall.jpg" />

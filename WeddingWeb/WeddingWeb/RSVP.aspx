@@ -177,8 +177,4 @@
             CssClass="style13" Height="56px" Width="242px" BorderStyle="None" 
             Font-Size="XX-Large" />
     </p>
-    <p class="style1">
-        <asp:Image ID="Image2" runat="server" ImageUrl="~/IMAGES/bottomCally2.png" />
-    </p>
-    
-</asp:Content>
+    </asp:Content>

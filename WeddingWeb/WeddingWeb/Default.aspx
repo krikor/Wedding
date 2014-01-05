@@ -6,5 +6,5 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <p>
         <asp:Image ID="Image1" runat="server" Height="655px" 
-            ImageUrl="~/IMAGES/Pictures/DSCN3533.JPG" Width="917px" />
+            ImageUrl="~/IMAGES/Pictures/DSCN3533.JPG" Width="923px" />
 </asp:Content>

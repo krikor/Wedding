@@ -192,6 +192,13 @@ div.menu ul li a:hover
     text-decoration: none;
 }
 
+div.menu a.static.selected
+{
+    background-color: #ffffff !important;
+    color: #465c71 !important;
+    text-decoration: none !important;
+}
+
 div.menu ul li a:active
 {
     background-color: #ffffff;
