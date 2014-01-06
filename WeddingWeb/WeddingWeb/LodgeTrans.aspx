@@ -17,10 +17,18 @@
         {
             text-align: center;
         }
+    .style14
+    {
+        text-align: center;
+        font-family: "French Script MT";
+        font-size: 50pt;
+        color: #000000;
+            height: 87px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p class="style2">
+    <p class="style14">
         Transportation and Lodging</p>
     <p class="style3">
         Places of Interest</p>

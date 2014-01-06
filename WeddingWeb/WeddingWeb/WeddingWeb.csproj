@@ -61,10 +61,15 @@
     <Content Include="Event.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="IMAGES\adress-box-Flat.jpg" />
+    <Content Include="IMAGES\backLawn.JPG" />
     <Content Include="IMAGES\black.png" />
     <Content Include="IMAGES\bottomCally2.png" />
+    <Content Include="IMAGES\CarriageHouse.JPG" />
     <Content Include="IMAGES\error-icon.png" />
+    <Content Include="IMAGES\history2.JPG" />
+    <Content Include="IMAGES\historyPics.JPG" />
     <Content Include="IMAGES\img_3812.jpg" />
+    <Content Include="IMAGES\littlePics.jpg" />
     <Content Include="IMAGES\middleCally2.png" />
     <Content Include="IMAGES\Pictures\DSCN3533.JPG" />
     <Content Include="IMAGES\Pictures\IMG_2.JPG" />
