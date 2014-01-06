@@ -19,21 +19,21 @@
         font-size: large;
         text-align: center;
     }
-        .style18
-        {
-            color: #4C3B29;
-        }
+    .style18
+    {
+        color: #4C3B29;
+    }
+    .style19
+    {
+        text-align: center;
+        margin-top: 16px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p class="style1">
-        <br />
-        </p>
-<p class="style1">
+    <p class="style19">
         <span class="style18">
-        <span class="style14">Our Story</span></p>
-<p class="style1">
-        </span></p>
+        <span class="style14">Our Story</span></span></p>
     <p class="style17" style="mso-themecolor: text1">
         Krikor 
         and Alexis at Johnson and Wales University during the future business leaders of 

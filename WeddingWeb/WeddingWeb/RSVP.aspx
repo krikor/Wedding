@@ -77,15 +77,15 @@
         margin: 0;
     }
         .style25
-        {
-            width: 510px;
-            height: 47px;
-        }
-        .style26
-        {
-            color: #FF0000;
-            margin-bottom: 0.5;
-        }
+    {
+        width: 510px;
+        height: 47px;
+    }
+    .style26
+    {
+        color: #FF0000;
+        margin-bottom: 0.5;
+    }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -196,6 +196,6 @@
             CssClass="style13" Height="56px" Width="242px" BorderStyle="None" 
             Font-Size="XX-Large" />
     </p>
-    <p class="style1">
-        <img class="style25" src="IMAGES/bottomCally2.png" /></p>
+<p class="style1">
+    <img class="style25" src="IMAGES/bottomCally2.png" /></p>
 </asp:Content>

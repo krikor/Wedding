@@ -6,6 +6,8 @@ body
     background: #ffffff;
     
     background-image:url('/IMAGES/ringsWall.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;

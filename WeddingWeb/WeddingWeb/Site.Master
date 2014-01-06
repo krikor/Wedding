@@ -41,8 +41,8 @@
             background: #ffffff/*#4b6c9e*/;
             width: 100%;
             left: 0px;
-            top: 0px;
-            height: 229px;
+            top: 29px;
+            height: 231px;
         }
         .style7
         {
@@ -118,6 +118,8 @@
             </div>
         </div>
         <div class="main">
+            <br />
+            <br />
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 <div class="style8">
                 </div>
