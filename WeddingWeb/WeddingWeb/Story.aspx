@@ -4,20 +4,24 @@
         .style14
         {
             font-size: 50pt;
-            font-family: "French Script MT";
-        }
+        font-family: "French Script MT";
+    }
         .style15
         {
             width: 462px;
             height: 351px;
         }
-        .style17
+    .style17
+    {
+        line-height: 107%;
+        font-family: "Times New Roman", serif;
+        color: #4C3B29;
+        font-size: large;
+        text-align: center;
+    }
+        .style18
         {
-            line-height: 107%;
-            font-family: "Times New Roman", serif;
             color: #4C3B29;
-            font-size: large;
-            text-align: center;
         }
     </style>
 </asp:Content>
@@ -25,10 +29,11 @@
     <p class="style1">
         <br />
         </p>
-    <p class="style1">
+<p class="style1">
+        <span class="style18">
         <span class="style14">Our Story</span></p>
-    <p class="style1">
-        &nbsp;</p>
+<p class="style1">
+        </span></p>
     <p class="style17" style="mso-themecolor: text1">
         Krikor 
         and Alexis at Johnson and Wales University during the future business leaders of 

@@ -23,8 +23,8 @@
         font-family: "French Script MT";
         font-size: 50pt;
         color: #000000;
-            height: 87px;
-        }
+        height: 87px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

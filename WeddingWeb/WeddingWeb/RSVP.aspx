@@ -76,6 +76,16 @@
         height: 97px;
         margin: 0;
     }
+        .style25
+        {
+            width: 510px;
+            height: 47px;
+        }
+        .style26
+        {
+            color: #FF0000;
+            margin-bottom: 0.5;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -127,7 +137,7 @@
         Text="I am Attending" Checked="True" CssClass="style23" />
     <br />
     <asp:RadioButton ID="notAttending" runat="server" GroupName="Response" 
-        Text="I am NOT Attending  " CssClass="style23" />
+        Text="I am NOT Attending  " CssClass="style26" />
     <br />
     <br />
             <span class="style22">Number of guests attending in your party (including you):
@@ -186,4 +196,6 @@
             CssClass="style13" Height="56px" Width="242px" BorderStyle="None" 
             Font-Size="XX-Large" />
     </p>
-    </asp:Content>
+    <p class="style1">
+        <img class="style25" src="IMAGES/bottomCally2.png" /></p>
+</asp:Content>
