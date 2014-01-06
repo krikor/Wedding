@@ -108,7 +108,7 @@
                         <asp:MenuItem Text="RSVP" Value="RSVP" NavigateUrl="~/RSVP.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Gift Registry" Value="Gift Registry" 
                             NavigateUrl="~/Registry.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/Gallery.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/WebGallery.aspx"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#666666" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

@@ -59,7 +59,6 @@
     <Content Include="ConfirmRSVP.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="Event.aspx" />
-    <Content Include="Gallery.aspx" />
     <Content Include="IMAGES\adress-box-Flat.jpg" />
     <Content Include="IMAGES\Amazon-Logo.jpg" />
     <Content Include="IMAGES\backLawn.JPG" />
@@ -74,6 +73,54 @@
     <Content Include="IMAGES\littlePics.jpg" />
     <Content Include="IMAGES\Macys-Logo.jpg" />
     <Content Include="IMAGES\middleCally2.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_engine\jquery.min.js" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_engine\visuallightbox.js" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_engine\vlbdata1.js" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderBottomCenter.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderBottomLeft.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderBottomRight.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderMiddleLeft.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderMiddleRight.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderTopCenter.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderTopLeft.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\borderTopRight.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\close.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\closelabel.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\loading.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\next.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\nextlabel.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\next_ie6.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\pause.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\prev.png" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\prevlabel.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\prev_ie6.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\start.gif" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\visuallightbox.css" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_files1\vlightbox1.css" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1150.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1151.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1152.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1153.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1154.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1155.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1156.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1157.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1158.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1159.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1160.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_images1\IMG_1161.JPG" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1150.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1151.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1152.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1153.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1154.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1155.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1156.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1157.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1158.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1159.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1160.jpg" />
+    <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1161.jpg" />
     <Content Include="IMAGES\Pictures\DSCN3533.JPG" />
     <Content Include="IMAGES\Pictures\IMG_2.JPG" />
     <Content Include="IMAGES\Pictures\IMG_4.JPG" />
@@ -108,6 +155,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="WebGallery.aspx" />
     <Content Include="WeddingParty.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -174,13 +222,6 @@
     <Compile Include="Event.aspx.designer.cs">
       <DependentUpon>Event.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Gallery.aspx.cs">
-      <DependentUpon>Gallery.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gallery.aspx.designer.cs">
-      <DependentUpon>Gallery.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -234,6 +275,13 @@
     <Compile Include="Venue.aspx.designer.cs">
       <DependentUpon>Venue.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebGallery.aspx.cs">
+      <DependentUpon>WebGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebGallery.aspx.designer.cs">
+      <DependentUpon>WebGallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WeddingParty.aspx.cs">
       <DependentUpon>WeddingParty.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -244,7 +292,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Audio\" />
+    <Folder Include="IMAGES\Audio\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
