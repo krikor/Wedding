@@ -52,7 +52,8 @@ td
     <div class="style1">
         <span class="style15">We are registered are the following Stores:</span><br />
         <br />
-        (Click to View our Registries)<br />
+        (Click 
+        on logo to view our registries)<br />
         <br />
         <asp:ImageButton ID="ImageButton1" runat="server" Height="128px" 
             ImageUrl="~/IMAGES/Macys-Logo.jpg" 

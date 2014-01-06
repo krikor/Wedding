@@ -28,6 +28,12 @@
         text-align: center;
         margin-top: 16px;
     }
+        .style20
+        {
+            width: 232px;
+            height: 320px;
+            float: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -35,7 +41,7 @@
         <span class="style18">
         <span class="style14">Our Story</span></span></p>
     <p class="style17" style="mso-themecolor: text1">
-        Krikor 
+        <img class="style20" src="IMAGES/Pictures/IMG_1.JPG" />Krikor 
         and Alexis at Johnson and Wales University during the future business leaders of 
         America District Competition on March 10<sup>th</sup> 2009. It was lunch time 
         and Alexis had a meal ticket for an hour earlier than Krikor’s. So, Alexis told 
