@@ -60,11 +60,18 @@ td
             PostBackUrl="http://www1.macys.com/registry/wedding/guest/?registryId=2143494" 
             Width="438px" />
         <br />
+        <asp:Image ID="Image3" runat="server" Height="16px" 
+            ImageUrl="~/IMAGES/middleCally2.png" Width="95px" />
+        <br />
         <br />
         <asp:ImageButton ID="ImageButton2" runat="server" Height="128px" 
             ImageUrl="~/IMAGES/crate_and_barrel_logo_01.jpg" 
             PostBackUrl="http://www.crateandbarrel.com/Gift-Registry/Alexis-Cohen-and-Krikor-Nigoghosian-Jr/r5122973" 
             Width="438px" />
+        <br />
+        <br />
+        <asp:Image ID="Image4" runat="server" Height="16px" 
+            ImageUrl="~/IMAGES/middleCally2.png" Width="95px" />
         <br />
         <br />
         <br />

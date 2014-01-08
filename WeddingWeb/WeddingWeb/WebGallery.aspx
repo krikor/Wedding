@@ -20,11 +20,18 @@
 	outline:none;
 }
 .vlb{display:none;}
+        .style14
+        {
+            text-align: center;
+            font-family: "French Script MT";
+            font-size: 50pt;
+            margin-top: 0px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p>
-        &nbsp;</p>
+    <p class="style14">
+        Check back again after the wedding</p>
     <p>
         &nbsp;</p>
         

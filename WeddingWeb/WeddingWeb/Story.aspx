@@ -27,21 +27,36 @@
     {
         text-align: center;
         margin-top: 16px;
+    } 
+    .newspaper
+    {
+       -moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+
+-moz-column-gap:40px; /* Firefox */
+-webkit-column-gap:40px; /* Safari and Chrome */
+column-gap:40px;
+
+-moz-column-rule:4px outset #ff00ff; /* Firefox */
+-webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+column-rule:4px outset #ff00ff;
     }
         .style20
         {
-            width: 232px;
-            height: 320px;
-            float: left;
+            font-size: 45pt;
         }
-    </style>
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <p class="style19">
         <span class="style18">
         <span class="style14">Our Story</span></span></p>
+    <p class="style19">
+        &nbsp;</p>
+    <div class="newspaper">
     <p class="style17" style="mso-themecolor: text1">
-        <img class="style20" src="IMAGES/Pictures/IMG_1.JPG" />Krikor 
+        <span class="style20">K</span>rikor 
         and Alexis at Johnson and Wales University during the future business leaders of 
         America District Competition on March 10<sup>th</sup> 2009. It was lunch time 
         and Alexis had a meal ticket for an hour earlier than Krikor’s. So, Alexis told 
@@ -52,8 +67,8 @@
         printed with the words “Do not open. Alarm will sound”. Now why would someone 
         put alarms on the cafeteria doors? And 20 of them at that? We simply didn’t 
         believe that each door was rigged. It turns out Johnson and Wales takes their 
-        food and their meal time seriously.<o:p></o:p></p>
-    <p class="style17" style="mso-themecolor: text1">
+        food and their meal time seriously.</p>
+        <p class="style17" style="mso-themecolor: text1">
         When 
         Alexis arrived at the dining hall and went to throw away the box of popcorn that 
         she had been snacking on in the trash next to one of the glass door bar, it 
@@ -77,7 +92,10 @@
         days after the movie night, Alexis texted Krikor to say hello. They texted for a 
         while and Krikor asked Alexis to go to dinner and a movie. Krikor anxiously met 
         her parents, picked her up and took her to Noodles and Co for dinner followed by 
-        Watchmen at AMC where Krikor asked Alexis to Prom.<o:p></o:p></p>
+        Watchmen at AMC where Krikor asked Alexis to Prom.</p>
+    </div>
+    <p class="style19">
+        &nbsp;</p>
     <p class="style1">
         <img class="style15" src="IMAGES/Pictures/IMG_5.JPG" /></p>
 </asp:Content>
