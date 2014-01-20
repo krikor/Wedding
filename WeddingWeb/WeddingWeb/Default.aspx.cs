@@ -11,7 +11,11 @@ namespace WeddingWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (Request.UserAgent.Contains("Phone") || Request.UserAgent.Contains("phone") || Request.UserAgent.Contains("android") || Request.UserAgent.Contains("Android"))
+            {
+                Response.Redirect("~/WeddingParty.aspx");
+
+            }
         }
     }
 }
