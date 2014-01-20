@@ -81,6 +81,10 @@
             <div class="clear hideSkiplink">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="style5">
+                
+                <%if (!Request.UserAgent.Contains("Phone") && !Request.UserAgent.Contains("phone") && !Request.UserAgent.Contains("android") && !Request.UserAgent.Contains("Android"))
+                  {%>
+
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
                         EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
                         BackColor="#660033" DynamicHorizontalOffset="2" Font-Names="Verdana" 
@@ -114,6 +118,21 @@
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <StaticSelectedStyle BackColor="#1C5E55" />
                 </asp:Menu>
+
+                <%}
+                  else
+                  { %>
+
+
+                  <asp:Menu ID="Menu1" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+                </asp:Menu>
+
+
+                <%} %>
                 </div>
             </div>
         </div>
