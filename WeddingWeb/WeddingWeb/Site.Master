@@ -27,11 +27,10 @@
         }
         .style5
         {
-            text-align: center;
             color: #FF9900;
             font-family: "Edwardian Script ITC";
             font-size: x-large;
-            margin-left: 120px;
+            margin-left: 80px;
         }
         .style6
         {
@@ -79,60 +78,38 @@
                     <img class="style13" src="IMAGES/Pictures/rightCal.png" /></span></div>
 
             <div class="clear hideSkiplink">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="style5">
-                
-                <%if (!Request.UserAgent.Contains("Phone") && !Request.UserAgent.Contains("phone") && !Request.UserAgent.Contains("android") && !Request.UserAgent.Contains("Android"))
-                  {%>
-
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                &nbsp;<div class="style5">
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
                         EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
                         BackColor="#660033" DynamicHorizontalOffset="2" Font-Names="Verdana" 
                         Font-Size="0.8em" ForeColor="#666666" 
                         onmenuitemclick="NavigationMenu_MenuItemClick" StaticSubMenuIndent="10px" 
                         style="font-family: Aparajita">
-                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
-                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <DynamicMenuStyle BackColor="#E3EAEB" />
-                    <DynamicSelectedStyle BackColor="#1C5E55" />
-                    <DynamicItemTemplate>
-                        <%# Eval("Text") %>
-                    </DynamicItemTemplate>
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem Text="Our Story" Value="Our Story" NavigateUrl="~/Story.aspx"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Event.aspx" Text="The Wedding" Value="Event">
-                            <asp:MenuItem NavigateUrl="~/Schedule.aspx" Text="Schedule" Value="Schedule">
+                        <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <DynamicSelectedStyle BackColor="#1C5E55" />
+                        <DynamicItemTemplate>
+                            <%# Eval("Text") %>
+                        </DynamicItemTemplate>
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                            <asp:MenuItem Text="Our Story" Value="Our Story" NavigateUrl="~/Story.aspx">
                             </asp:MenuItem>
                             <asp:MenuItem NavigateUrl="~/Venue.aspx" Text="The Venue" Value="The Venue">
                             </asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/LodgeTrans.aspx" 
-                                Text="Lodging &amp; Transportation" Value="LodgingTrans"></asp:MenuItem>
-                        </asp:MenuItem>
-                        <asp:MenuItem Text="RSVP" Value="RSVP" NavigateUrl="~/RSVP.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Gift Registry" Value="Gift Registry" 
+                            <asp:MenuItem NavigateUrl="~/LodgeTrans.aspx" Text="Lodging" 
+                                Value="LodgingTrans"></asp:MenuItem>
+                            <asp:MenuItem Text="RSVP" Value="RSVP" NavigateUrl="~/RSVP.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Gift Registry" Value="Gift Registry" 
                             NavigateUrl="~/Registry.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/WebGallery.aspx"></asp:MenuItem>
-                    </Items>
-                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
-                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <StaticSelectedStyle BackColor="#1C5E55" />
-                </asp:Menu>
-
-                <%}
-                  else
-                  { %>
-
-
-                  <asp:Menu ID="Menu1" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
-                    </Items>
-                </asp:Menu>
-
-
-                <%} %>
+                            <asp:MenuItem Text="Gallery" Value="Gallery" NavigateUrl="~/WebGallery.aspx">
+                            </asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#1C5E55" />
+                    </asp:Menu>
                 </div>
             </div>
         </div>
@@ -149,7 +126,6 @@
     </div>
     </form>
     <p class="style1">
-        <a href="mailto:krikor@outlook.com">krikor@outlook.com</a> | 303-807-5008 | 4267 
-        148th Ave NE, Apt G103, Bellevue, WA 98007</p>
+        <a href="mailto:krikor@outlook.com">krikor@outlook.com</a></p>
 </body>
 </html>

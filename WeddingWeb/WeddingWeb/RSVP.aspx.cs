@@ -7,6 +7,8 @@ using System.Web.UI.WebControls;
 using System.Net;
 using System.Net.Mail;
 using System.Web.Script.Serialization;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace WeddingWeb
 {
@@ -27,7 +29,7 @@ namespace WeddingWeb
         protected void Button1_Click(object sender, EventArgs e)
         {
             string n = String.Format("{0}", Request.Form["invitePassword"]);
-            if (n.Equals("hobahobs"))
+            if (MD5Hash(n).Equals("86737a4ae44b95361dc727958c1e0027"))
             {
                 validPass.Visible = false;
                 String decision = "";
@@ -148,6 +150,27 @@ namespace WeddingWeb
                 NamesPanel.Controls.Add(new LiteralControl("<br />"));
 
             }
+        }
+
+        public static string MD5Hash(string text)
+        {
+            MD5 md5 = new MD5CryptoServiceProvider();
+
+            //compute hash from the bytes of text
+            md5.ComputeHash(ASCIIEncoding.ASCII.GetBytes(text));
+
+            //get hash result after compute it
+            byte[] result = md5.Hash;
+
+            StringBuilder strBuilder = new StringBuilder();
+            for (int i = 0; i < result.Length; i++)
+            {
+                //change it into 2 hexadecimal digits
+                //for each byte
+                strBuilder.Append(result[i].ToString("x2"));
+            }
+
+            return strBuilder.ToString();
         }
 
         protected void numberAttending_SelectedIndexChanged(object sender, EventArgs e)

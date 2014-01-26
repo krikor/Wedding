@@ -10,8 +10,7 @@
     {
         font-family: "French Script MT";
         font-size: 50pt;
-        color: #4C3B29;
-    }
+        }
     .style17
     {
         font-size: medium;
@@ -45,6 +44,18 @@
         width: 521px;
         height: 391px;
     }
+    .style24
+    {
+        width: 216px;
+        height: 198px;
+        float: left;
+    }
+    .style25
+    {
+        font-size: xx-large;
+        color: #4C3B29;
+        font-family: "French Script MT";
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -54,24 +65,30 @@
         <br />
         <img class="style14" src="IMAGES/img_3812.jpg" /><br />
         <br />
-        <span class="style17"><strong>The </strong> <em><strong>historic Highlands Ranch Mansion</strong></em><strong> and future Historic Park stand 
-        today as valuable examples of</strong><em><strong> history</strong></em><strong>, reflecting the lifestyle of 
-        early settlers and early pioneers of the area now known as </strong> <em>
-        <strong>Highlands Ranch</strong></em><strong>, 
+        <span class="style17"><strong>
+        <img class="style24" src="IMAGES/Schedule.png" /></strong></span><span 
+            class="style25">The historic Highlands Ranch Mansion and future Historic Park stand 
+        today as valuable examples of history, reflecting the lifestyle of 
+        early settlers and early pioneers of the area now known as Highlands Ranch, 
         Colorado. More than 100 years old, the historic Mansion has been home to some of 
         Denver’s more notable families including cattle barons, oil tycoons, prominent 
         Denver socialites, as well as political and business leaders who have helped 
         create the Colorado we know today.<br />
         <br />
-        The 121-year-old building, known as the </strong> <em><strong>Highlands Ranch Mansion</strong></em><strong>, is the 
+        The 121-year-old building, known as the Highlands Ranch Mansion, is the 
         namesake of the 30-year-old community of Highlands Ranch,&nbsp;is open to the public 
         for community and private events, conferences, tours and educational programs. 
         After an 18-month renovation, the Mansion is a focal point in the community 
         where residents can gather, celebrate and experience the lifestyle of years gone 
-        by at this western estate.<br />
+        by at this western estate.</span><span class="style17"><strong><br />
         <br />
         More Details: <a href="http://highlandsranchmansion.com/">
         http://highlandsranchmansion.com/</a></strong></span><br />
+        <em style="font-weight: bold; font-style: normal; color: rgb(68, 68, 68); font-family: arial, sans-serif; font-size: small; font-variant: normal; letter-spacing: normal; line-height: 16.1200008392334px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+        Highlands Ranch Mansion</em><span 
+            style="color: rgb(68, 68, 68); font-family: arial, sans-serif; font-size: small; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 16.1200008392334px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><span 
+            class="Apple-converted-space">&nbsp;</span>| 9950 E Gateway Dr. | Highlands 
+        Ranch, CO 80126 | 303-791-0177</span><br />
         <br />
         <img class="style23" src="IMAGES/littlePics.jpg" /><br />
         <br />

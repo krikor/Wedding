@@ -68,6 +68,8 @@
     <Content Include="IMAGES\crate_and_barrel_logo_01.jpg" />
     <Content Include="IMAGES\Defaulthobo.mp4" />
     <Content Include="IMAGES\error-icon.png" />
+    <Content Include="IMAGES\Hampton Inn Logo.png" />
+    <Content Include="IMAGES\Hilton-Garden-Inn-Logo-Wallpaper.png" />
     <Content Include="IMAGES\history2.JPG" />
     <Content Include="IMAGES\historyPics.JPG" />
     <Content Include="IMAGES\img_3812.jpg" />
@@ -124,6 +126,7 @@
     <Content Include="IMAGES\NewGallery\index_files\vlb_thumbnails1\img_1161.jpg" />
     <Content Include="IMAGES\PhotoFunia 2013-12-28 01 35 47 default_jpg.jpg" />
     <Content Include="IMAGES\Pictures\DSCN3533.JPG" />
+    <Content Include="IMAGES\Pictures\DSCN6710.JPG" />
     <Content Include="IMAGES\Pictures\IMG_2.JPG" />
     <Content Include="IMAGES\Pictures\IMG_4.JPG" />
     <Content Include="IMAGES\Pictures\IMG_5.JPG" />
@@ -134,6 +137,7 @@
     <Content Include="IMAGES\Pictures\rightCal.png" />
     <Content Include="IMAGES\purple-wedding-border-hi.png" />
     <Content Include="IMAGES\ringsWall.jpg" />
+    <Content Include="IMAGES\Schedule.png" />
     <Content Include="IMAGES\topCall.jpg" />
     <Content Include="IMAGES\topCally2.png" />
     <Content Include="IMAGES\wallpaper-124478.jpg" />
@@ -161,7 +165,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="WebGallery.aspx" />
-    <Content Include="WeddingParty.aspx" />
+    <Content Include="MobileDefault.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -287,12 +291,12 @@
     <Compile Include="WebGallery.aspx.designer.cs">
       <DependentUpon>WebGallery.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WeddingParty.aspx.cs">
-      <DependentUpon>WeddingParty.aspx</DependentUpon>
+    <Compile Include="MobileDefault.aspx.cs">
+      <DependentUpon>MobileDefault.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WeddingParty.aspx.designer.cs">
-      <DependentUpon>WeddingParty.aspx</DependentUpon>
+    <Compile Include="MobileDefault.aspx.designer.cs">
+      <DependentUpon>MobileDefault.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -300,7 +304,9 @@
     <Folder Include="IMAGES\Audio\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Web.config" />
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Site.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

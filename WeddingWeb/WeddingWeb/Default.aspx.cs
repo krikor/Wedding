@@ -11,9 +11,9 @@ namespace WeddingWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.UserAgent.Contains("Phone") || Request.UserAgent.Contains("phone") || Request.UserAgent.Contains("android") || Request.UserAgent.Contains("Android"))
+            if (Request.UserAgent.Contains("Phone") || Request.UserAgent.Contains("phone") || Request.UserAgent.Contains("android") || Request.UserAgent.Contains("Android") || Request.UserAgent.Contains("ipad") || Request.UserAgent.Contains("iPad") || Request.UserAgent.Contains("Surface") || Request.UserAgent.Contains("surface"))
             {
-                Response.Redirect("~/WeddingParty.aspx");
+                Response.Redirect("~/MobileDefault.aspx");
 
             }
         }

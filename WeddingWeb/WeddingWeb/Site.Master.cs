@@ -22,5 +22,10 @@ namespace WeddingWeb
         {
 
         }
+
+        protected void MobileMenu_MenuItemClick(object sender, MenuEventArgs e)
+        {
+
+        }
     }
 }
