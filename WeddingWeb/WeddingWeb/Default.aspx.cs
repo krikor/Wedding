@@ -26,7 +26,7 @@ namespace WeddingWeb
             string url = HttpContext.Current.Request.Url.AbsoluteUri;
             if ((countryName.Equals("Switzerland") || countryName.Equals("Norway") || countryName.Equals("Italy") || countryName.Equals("Germany") || countryName.Equals("Sweden") || countryName.Equals("Denmark") || countryName.Equals("France")) && !url.Contains("euro-akwedding"))
             {
-                Response.Redirect("http://euro-akwedding.azurewebsites.net/");
+                Response.Redirect("http://europe.alexisandkrikor.com/");
             }
             
         }
