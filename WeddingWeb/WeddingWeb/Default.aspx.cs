@@ -16,20 +16,19 @@ namespace WeddingWeb
             {
                 Response.Redirect("~/MobileDefault.aspx");
             }
-
+            /*
             string countryName = RegionInfo.CurrentRegion.DisplayName;
             string url = HttpContext.Current.Request.Url.AbsoluteUri;
             Response.Write("<script>alert('"+countryName+" " + url+"')</script>");
-
-            /*
+            */
+            
             string countryName= RegionInfo.CurrentRegion.DisplayName;
             string url = HttpContext.Current.Request.Url.AbsoluteUri;
-            countryName = "Switzerland";
-            if ((countryName.Equals("Switzerland") || countryName.Equals("Norway") || countryName.Equals("Italy") || countryName.Equals("Germany") || countryName.Equals("Sweden") || countryName.Equals("Denmark")) && !url.Contains("euro-akwedding"))
+            if ((countryName.Equals("Switzerland") || countryName.Equals("Norway") || countryName.Equals("Italy") || countryName.Equals("Germany") || countryName.Equals("Sweden") || countryName.Equals("Denmark") || countryName.Equals("France")) && !url.Contains("euro-akwedding"))
             {
                 Response.Redirect("http://euro-akwedding.azurewebsites.net/");
             }
-             */
+            
         }
     }
 }
