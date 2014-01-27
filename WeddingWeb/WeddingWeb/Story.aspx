@@ -118,4 +118,5 @@ column-rule:4px outset #ff00ff;
         &nbsp;</p>
     <p class="style1">
         <img class="style15" src="IMAGES/Pictures/IMG_5.JPG" /></p>
+        <br />
 </asp:Content>

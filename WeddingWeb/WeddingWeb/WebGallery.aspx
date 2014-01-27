@@ -88,20 +88,20 @@
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn1564.jpg" title="DSCN1564"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn1564.jpg" alt="DSCN1564"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn1656.jpg" title="DSCN1656"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn1656.jpg" alt="DSCN1656"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn2180.jpg" title="DSCN2180"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn2180.jpg" alt="DSCN2180"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn3131_2.jpg" title="DSCN3131 (2)"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn3131_2.jpg" alt="DSCN3131 (2)"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn31312.jpg" title="DSCN3131 (2)"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn3131_2.jpg" alt="DSCN3131 (2)"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn3726.jpg" title="DSCN3726"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn3726.jpg" alt="DSCN3726"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn5198.jpg" title="DSCN5198"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn5198.jpg" alt="DSCN5198"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn5448.jpg" title="DSCN5448"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn5448.jpg" alt="DSCN5448"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn6710.jpg" title="DSCN6710"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn6710.jpg" alt="DSCN6710"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/dscn7727.jpg" title="DSCN7727"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/dscn7727.jpg" alt="DSCN7727"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/edinburg_1.jpg" title="Edinburg 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/edinburg_1.jpg" alt="Edinburg 1"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/edinburg1.jpg" title="Edinburg 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/edinburg_1.jpg" alt="Edinburg 1"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/img_1464.jpg" title="IMG_1464"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/img_1464.jpg" alt="IMG_1464"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/img_1492.jpg" title="IMG_1492"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/img_1492.jpg" alt="IMG_1492"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/img_1501.jpg" title="IMG_1501"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/img_1501.jpg" alt="IMG_1501"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oslo_1.jpg" title="Oslo 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oslo_1.jpg" alt="Oslo 1"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oxford_1.jpg" title="Oxford 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oxford_1.jpg" alt="Oxford 1"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oxford_2.jpg" title="Oxford 2"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oxford_2.jpg" alt="Oxford 2"/></a>
-<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/prague_1.jpg" title="Prague 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/prague_1.jpg" alt="Prague 1"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oslo1.jpg" title="Oslo 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oslo_1.jpg" alt="Oslo 1"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oxford1.jpg" title="Oxford 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oxford_1.jpg" alt="Oxford 1"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/oxford2.jpg" title="Oxford 2"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/oxford_2.jpg" alt="Oxford 2"/></a>
+<a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/prague1.jpg" title="Prague 1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/prague_1.jpg" alt="Prague 1"/></a>
 <a class="vlightbox1" href="IMAGES/NewGallery/index_files/vlb_images1/1.jpg" title="1"><img src="IMAGES/NewGallery/index_files/vlb_thumbnails1/1.jpg" alt="1"/></a>
 
 
