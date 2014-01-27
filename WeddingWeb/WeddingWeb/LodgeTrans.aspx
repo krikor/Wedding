@@ -73,9 +73,16 @@
     <p class="style3">           
                     
         <asp:ImageButton ID="ImageButton1" runat="server" Height="60px" 
-            ImageUrl="~/IMAGES/Hilton-Garden-Inn-Logo-Wallpaper.png" 
-            PostBackUrl="http://www.denverhighlandsranch.stayhgi.com" Width="248px" />
+            ImageUrl="~/IMAGES/Hilton-Garden-Inn-Logo-Wallpaper.png" OnClientClick="PreventMasking('http://www.denverhighlandsranch.stayhgi.com')" Width="248px" />
     </p>
+    <script type="text/javascript">
+        function PreventMasking(urlPopup) {
+            /*if (parent.frames.length > 0) {
+            parent.location.href = self.document.location
+            }*/
+            window.open(urlPopup);
+        }
+</script>
     <p class="style3">           
                     
         1050 Plaza Dr, Highlands Ranch, CO 80126<br />
@@ -97,9 +104,7 @@
         King Bed Suite - $139.00 + tax<o:p></o:p></p>
     <p class="style16">
         To make the reservations call 303-683-4100, ask for the COHEN-NIGOGHOSIAN 
-        WEDDING or visit <a href="http://www.denverhighlandsranch.stayhgi.com">
-        www.denverhighlandsranch.stayhgi.com</a> and make the reservations using your 
-        group code CNW.<o:p>
+        WEDDING.<o:p>
         <o:p>These rooms <i style="mso-bidi-font-style: normal">
         <span style="color: red">do not</span></i><span style="color: red"> </span>
         include breakfast.<o:p></o:p> </o:p>
@@ -112,8 +117,8 @@
     <p class="style3">           
                     
         <asp:ImageButton ID="ImageButton2" runat="server" Height="97px" 
-            ImageUrl="~/IMAGES/Hampton Inn Logo.png" 
-            PostBackUrl="http://hamptoninn3.hilton.com/en/hotels/colorado/hampton-inn-and-suites-denver-highlands-ranch-DENHLHX/index.html" 
+            ImageUrl="~/IMAGES/Hampton Inn Logo.png"
+            OnClientClick="PreventMasking('http://hamptoninn3.hilton.com/en/hotels/colorado/hampton-inn-and-suites-denver-highlands-ranch-DENHLHX/index.html')"
             Width="191px" />
     </p>
     <p class="style3">           
@@ -133,9 +138,7 @@
     <p class="style16">
         King Bed Suite - $139.00 + tax<o:p></o:p></p>
     <p class="style16">
-        To make the reservations call 303-794-1800 or visit
-        <a href="http://www.hamptoninnhr.com">www.hamptoninnhr.com</a> and make the 
-        reservations using your group code CNW.<o:p> There are 10 rooms available and if 
+        To make the reservations call 303-794-1800.<o:p> There are 10 rooms available and if 
         we need more they will add rooms. There are 4 king rooms, 4 double queen rooms 
         and 2 king suit rooms. These rooms include breakfast. </o:p>
         Cancellation policy is: Can cancel up to 6:00pm the day of arrival. Hotel has an 
@@ -148,18 +151,18 @@
         <strong>Other Hotels in the area are (sorted by distance to HR Mansion):</strong></p>
     <p class="style3">           
                     
-        <a href="http://www.marriott.com/hotels/travel/denhr-residence-inn-denver-highlands-ranch/">
+        <a onclick="PreventMasking('http://www.marriott.com/hotels/travel/denhr-residence-inn-denver-highlands-ranch/')">
         Marriot Residence Inn</a></p>
     <p class="style3">           
                     
-        <a href="http://www.hoteldenvertech.com/">Comfort Suites</a></p>
+        <a onclick="PreventMasking('http://www.hoteldenvertech.com/')">Comfort Suites</a></p>
     <p class="style3">           
                     
-        <a href="http://www.marriott.com/hotels/travel/denfs-fairfield-inn-and-suites-denver-tech-center-south/">
+        <a onclick="PreventMasking('http://www.marriott.com/hotels/travel/denfs-fairfield-inn-and-suites-denver-tech-center-south/')">
         Marriot Fairfield Inn</a></p>
     <p class="style3">           
                     
-        <a href="http://denversouth.place.hyatt.com/en/hotel/home.html?src=agn_mls_hp_lclb_gplaces_denzs">
+        <a onclick="PreventMasking('http://denversouth.place.hyatt.com/en/hotel/home.html?src=agn_mls_hp_lclb_gplaces_denzs')">
         Hyatt Place</a></p>
     <p class="style3">           
                     

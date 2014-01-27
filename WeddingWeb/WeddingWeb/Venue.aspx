@@ -82,7 +82,15 @@
         where residents can gather, celebrate and experience the lifestyle of years gone 
         by at this western estate.</span><span class="style17"><strong><br />
         <br />
-        More Details: <a href="http://highlandsranchmansion.com/">
+        <script type="text/javascript">
+            function PreventMasking(urlPopup) {
+                /*if (parent.frames.length > 0) {
+                parent.location.href = self.document.location
+                }*/
+                window.open(urlPopup);
+            }
+</script>
+        More Details: <a onclick="PreventMasking('http://highlandsranchmansion.com/')">
         http://highlandsranchmansion.com/</a></strong></span><br />
         <em style="font-weight: bold; font-style: normal; color: rgb(68, 68, 68); font-family: arial, sans-serif; font-size: small; font-variant: normal; letter-spacing: normal; line-height: 16.1200008392334px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
         Highlands Ranch Mansion</em><span 
