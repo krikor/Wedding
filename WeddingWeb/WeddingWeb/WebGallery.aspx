@@ -109,6 +109,10 @@
 	<script src="IMAGES/NewGallery/index_files/vlb_engine/vlbdata1.js" 
         type="text/javascript"></script>
 	<!-- End VisualLightBox.com BODY section -->
+    <audio autoplay loop>
+      <source src="IMAGES/Audio/ClairdeLune.mp3">
+  </audio
+    
 
 	<p>
         <br />

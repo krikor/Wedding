@@ -61,6 +61,7 @@
     <Content Include="Event.aspx" />
     <Content Include="IMAGES\adress-box-Flat.jpg" />
     <Content Include="IMAGES\Amazon-Logo.jpg" />
+    <Content Include="IMAGES\Audio\ClairdeLune.mp3" />
     <Content Include="IMAGES\backLawn.JPG" />
     <Content Include="IMAGES\black.png" />
     <Content Include="IMAGES\bottomCally2.png" />
@@ -359,7 +360,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="IMAGES\Audio\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config">
