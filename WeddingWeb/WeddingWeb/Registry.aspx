@@ -58,8 +58,16 @@ td
         <asp:ImageButton ID="ImageButton1" runat="server" Height="128px" 
             ImageUrl="~/IMAGES/Macys-Logo.jpg" 
             PostBackUrl="http://www1.macys.com/registry/wedding/guest/?registryId=2143494" 
-            Width="438px" />
+            Width="438px" onclientclick="PreventMasking()" />
         <br />
+        <script type="text/javascript">
+            function PreventMasking() 
+            {
+                if (parent.frames.length > 0) {
+                    parent.location.href = self.document.location
+                }
+            }
+</script>
         <asp:Image ID="Image3" runat="server" Height="16px" 
             ImageUrl="~/IMAGES/middleCally2.png" Width="95px" />
         <br />
@@ -67,7 +75,7 @@ td
         <asp:ImageButton ID="ImageButton2" runat="server" Height="128px" 
             ImageUrl="~/IMAGES/crate_and_barrel_logo_01.jpg" 
             PostBackUrl="http://www.crateandbarrel.com/Gift-Registry/Alexis-Cohen-and-Krikor-Nigoghosian-Jr/r5122973" 
-            Width="438px" />
+            Width="438px" onclientclick="PreventMasking()" />
         <br />
         <br />
         <asp:Image ID="Image4" runat="server" Height="16px" 
@@ -78,7 +86,7 @@ td
         <asp:ImageButton ID="ImageButton3" runat="server" Height="128px" 
             ImageUrl="~/IMAGES/Amazon-Logo.jpg" 
             PostBackUrl="http://www.amazon.com/registry/wedding/2PC3NG91LFE2H" 
-            Width="438px" />
+            Width="438px" onclientclick="PreventMasking()" />
         <br />
         <br />
         <br />
