@@ -84,7 +84,7 @@ column-rule:4px outset #ff00ff;
             together.<o:p>&nbsp;</o:p></p>
         <p class="MsoNormal">
             A week later, Alexis invited Krikor to one of Audrey’s movie nights. Krikor and 
-            Alexis snuggled on the couth talking and watching Hall’s Moving Castle. During 
+            Alexis snuggled on the couch talking and watching Hall’s Moving Castle. During 
             one of the intermissions for popcorn and cookies, Alexis asked to see Krikor’s 
             phone. While Krikor went to play foosball, Alexis and Audrey played with his 
             phone. Alexis put her number in his contacts and Audrey took a picture of Alexis 

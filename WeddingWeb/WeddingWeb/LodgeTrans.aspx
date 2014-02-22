@@ -66,8 +66,8 @@
         </p>
     <p class="style18">           
                     
-        We have a block of rooms reserved for our guests from July 25th to July 27th at a dicounted rate 
-        in two hotels. Click on the hotel logos bellow to get to their reservation pages. 
+        We have a block of rooms reserved for our guests from July 25th to July 27th at a discounted rate 
+        in two hotels. Click on the hotel logos below to get to their reservation pages. 
         Our group code is &#39;<span class="style19">CNW</span>&#39; for both hotels:</p>
     <p class="style3">           
                     
