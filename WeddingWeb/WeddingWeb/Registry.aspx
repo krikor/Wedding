@@ -86,6 +86,15 @@ td
             ImageUrl="~/IMAGES/Amazon-Logo.jpg"
             Width="438px" onclientclick="PreventMasking('http://www.amazon.com/registry/wedding/2PC3NG91LFE2H')" />
         <br />
+        <asp:Image ID="Image5" runat="server" Height="16px" 
+            ImageUrl="~/IMAGES/middleCally2.png" Width="95px" />
+        <br />
+        <br />
+        <asp:ImageButton ID="ImageButton4" runat="server" Height="128px" 
+            ImageUrl="~/IMAGES/bed-bathfix.png"
+            Width="438px" 
+            onclientclick="PreventMasking('http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&amp;eventType=Wedding&amp;registryId=541204418&amp;pwsurl=')" />
+        <br />
         <br />
         <br />
         <span class="style17">Shipping Address (BEFORE Wedding):</span><br />
