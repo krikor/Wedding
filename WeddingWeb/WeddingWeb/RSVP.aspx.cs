@@ -50,11 +50,13 @@ namespace WeddingWeb
 
                     mail.From = new MailAddress("alexis-and-krikor@outlook.com");
                     mail.To.Add("alexis-and-krikor@outlook.com");
-                    mail.Subject = "RSVP";
+                    mail.To.Add("lisacohen@q.com");
+                    
+                    mail.Subject = FirstName.Text + "'s RSVP";
 
                     message = message + "Contact's Email: " + EmailBox.Text +
                         "\n" + FirstName.Text + " " + LastName.Text + " has " + decision + " your invitation."
-                        + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " people.";
+                        + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " person(s).";
 
                     message = message + " The following guests are attending: \n";
 
@@ -124,6 +126,8 @@ namespace WeddingWeb
 
         void postDynamics()
         {
+            
+
             int boxesToCreate = int.Parse(numberAttending.SelectedValue);
 
             TextBox[] t = new TextBox[boxesToCreate];
@@ -178,6 +182,16 @@ namespace WeddingWeb
         protected void numberAttending_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Attending_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void notAttending_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

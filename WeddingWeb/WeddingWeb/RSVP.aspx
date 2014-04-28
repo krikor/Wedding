@@ -134,10 +134,12 @@
     <br />
     <br />
     <asp:RadioButton ID="Attending" runat="server" GroupName="Response" 
-        Text="I am Attending" Checked="True" CssClass="style23" />
+        Text="I am Attending" Checked="True" CssClass="style23" 
+                oncheckedchanged="Attending_CheckedChanged" />
     <br />
     <asp:RadioButton ID="notAttending" runat="server" GroupName="Response" 
-        Text="I am NOT Attending  " CssClass="style26" />
+        Text="I am NOT Attending  " CssClass="style26" 
+                oncheckedchanged="notAttending_CheckedChanged" />
     <br />
     <br />
             <span class="style22">Number of guests attending in your party (including you):
@@ -160,7 +162,7 @@
     
     <asp:DropDownList ID="numberAttending" runat="server" 
         onselectedindexchanged="numberAttending_SelectedIndexChanged" 
-        AutoPostBack="True" CssClass="style21">
+        AutoPostBack="True" CssClass="style21" Width="42px">
         <asp:ListItem>0</asp:ListItem>
         <asp:ListItem>1</asp:ListItem>
         <asp:ListItem>2</asp:ListItem>
@@ -184,7 +186,7 @@
     </asp:Panel>
     </div>
     <p class="style18">
-        Your party may include everyone travelling with you. Due to space limitations we 
+        Due to space limitations we 
         cannot accomodate additional friends or dates who are not already on the guest 
         list. Thank you for understanding.</p>
     <p class="style18">
