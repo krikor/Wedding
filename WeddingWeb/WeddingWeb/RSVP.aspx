@@ -184,6 +184,10 @@
     </asp:Panel>
     </div>
     <p class="style18">
+        Your party may include everyone travelling with you. Due to space limitations we 
+        cannot accomodate additional friends or dates who are not already on the guest 
+        list. Thank you for understanding.</p>
+    <p class="style18">
         <span class="style22">Password:
         </span>
         <input id="invitePassword" name="invitePassword" type="password" 

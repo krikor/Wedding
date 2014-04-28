@@ -29,7 +29,7 @@ namespace WeddingWeb
         protected void Button1_Click(object sender, EventArgs e)
         {
             string n = String.Format("{0}", Request.Form["invitePassword"]);
-            if (MD5Hash(n).Equals("86737a4ae44b95361dc727958c1e0027"))
+            if (MD5Hash(n).Equals("ae4cca422f528fe14cb9168fc941bb14"))
             {
                 validPass.Visible = false;
                 String decision = "";
@@ -46,13 +46,13 @@ namespace WeddingWeb
                 try
                 {
                     MailMessage mail = new MailMessage();
-                    SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+                    SmtpClient SmtpServer = new SmtpClient("smtp.live.com");
 
-                    mail.From = new MailAddress("krikor.ni@gmail.com");
+                    mail.From = new MailAddress("alexis-and-krikor@outlook.com");
                     mail.To.Add("alexis-and-krikor@outlook.com");
                     mail.Subject = "RSVP";
 
-                    message = message + "Email: " + EmailBox.Text +
+                    message = message + "Contact's Email: " + EmailBox.Text +
                         "\n" + FirstName.Text + " " + LastName.Text + " has " + decision + " your invitation."
                         + "\n" + FirstName.Text + (FirstName.Text.EndsWith("s") ? "\' " : "\'s ") + "party includes " + numberAttending.Text + " people.";
 
@@ -72,23 +72,25 @@ namespace WeddingWeb
                         }
                     }
 
+                    message = message + "\nRegards," + "\nAlexis & Krikor";
+
                     mail.Body = message;
                     SmtpServer.Port = 587;
                     SmtpServer.UseDefaultCredentials = false;
-                    SmtpServer.Credentials = new System.Net.NetworkCredential("krikor.ni", "nor1359136");
+                    SmtpServer.Credentials = new System.Net.NetworkCredential("alexis-and-krikor@outlook.com", "dirtyhobo99");
                     SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
                     SmtpServer.EnableSsl = true;
                     SmtpServer.Send(mail);
 
                     //email to confirm
                     MailMessage confirmation = new MailMessage();
-                    confirmation.From = new MailAddress("krikor.ni@gmail.com");
+                    confirmation.From = new MailAddress("alexis-and-krikor@outlook.com");
                     confirmation.To.Add(EmailBox.Text);
                     confirmation.Subject = "RSVP Confirmation";
 
                     confirmation.Body = "Thank you for your response. \n";
                     confirmation.Body = confirmation.Body + "Your reservation was: \n";
-                    confirmation.Body = confirmation.Body + numberAttending.Text + " Guests:\n";
+                    confirmation.Body = confirmation.Body + numberAttending.Text + " Guest(s):\n";
                     foreach (Control c in NamesPanel.Controls)
                     {
                         if (c is TextBox)
