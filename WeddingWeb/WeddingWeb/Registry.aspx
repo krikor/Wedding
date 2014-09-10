@@ -96,18 +96,14 @@ td
             onclientclick="PreventMasking('http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&amp;eventType=Wedding&amp;registryId=541204418&amp;pwsurl=')" />
         <br />
         <br />
-        <br />
-        <span class="style17">Shipping Address (BEFORE Wedding):</span><br />
-        <span class="style16">Krikor/Alexis Nigoghosian<br />
-        4267 148th Avenue NE<br />
-        Apt. G103<br />
-        Bellevue, WA 98007<br />
-        USA<br />
+        <span class="style16"><br />
         </span>
         <br />
         <span class="style17">Shipping Address (AFTER Wedding):</span><br />
         <span class="style16">Krikor/Alexis Nigoghosian<br />
-        <em>TBD</em><br />
+        <em>2080 132nd Ave SE Apt. 806<br />
+        Bellevue, WA 98005<br />
+        USA</em><br />
         </span>
         <br />
         <br />
